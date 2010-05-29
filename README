@@ -1,5 +1,5 @@
-This is an unofficial vendor setup for the Dream and Sapphire devices.
+This is an unofficial vendor setup for the Droid Eris.
 
-It was pieced together by Cyanogen. A shipping device is required to pull
+It was pieced together by Cyanogen, modded by Darchstar. A shipping device is required to pull
 the proprietary files needed to build the system (via adb).  Run the
 "extract-files.sh" script before building.
