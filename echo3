@@ -1,0 +1,4 @@
+#!/system/bin/sh
+echo -n 'config:auth 2' > /dev/qmi0
+echo -n 'config:tech 2' > /dev/qmi0
+echo -n 'up:0  ' > /dev/qmi0

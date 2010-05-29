@@ -1,0 +1,34 @@
+#
+# system.prop for dream_sapphire
+#
+
+ro.sf.lcd_density=160
+
+rild.libpath=/system/lib/libhtc_ril.so
+
+# Default network type.
+ro.telephony.default_network=4
+ro.cdma.home.operator.numeric=310120
+ro.cdma.home.operator.alpha=Sprint
+ro.cdma.homesystem=128,64
+ro.cdma.data_retry_config=default_randomization=960000,960000,960000,960000,960000
+
+wifi.interface=tiwlan0
+wifi.supplicant_scan_interval=15
+
+# RIL settings
+ro.ril.gprsclass=10
+ro.ril.hsxpa=1
+
+# Media settings
+ro.media.enc.file.format       = 3gp,mp4
+ro.media.enc.vid.codec         = m4v,h263
+ro.media.enc.vid.h263.width    = 176,352
+ro.media.enc.vid.h263.height   = 144,288
+ro.media.enc.vid.h263.bps      = 64000,800000
+ro.media.enc.vid.h263.fps      = 1,30
+ro.media.enc.vid.m4v.width     = 176,352
+ro.media.enc.vid.m4v.height    = 144,288
+ro.media.enc.vid.m4v.bps       = 64000,800000
+ro.media.enc.vid.m4v.fps       = 1,30
+
