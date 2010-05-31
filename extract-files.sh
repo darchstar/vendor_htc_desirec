@@ -6,7 +6,7 @@ adb pull /system/bin/akmd proprietary/akmd
 chmod 755 proprietary/akmd
 adb pull /system/xbin/echo3 ./
 adb pull /system/lib/hw/lights.msm7k.so ./
-adb pull /system/lib/hw/sensors.heroc.so ./
+adb pull /system/lib/hw/sensors.desirec.so ./
 adb pull /system/etc/eri.xml ./
 adb pull /system/usr/keychars/heroc-keypad.kcm.bin ./
 adb pull /system/etc/wifi/Fw1251r1c.bin proprietary/Fw1251r1c.bin
